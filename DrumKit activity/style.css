@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-color: blue;
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 0 black;
+}
+
+.drum{
+    outline: none;
+    border: 10px solid grey;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 900;
+    color: darkorange;
+    text-shadow: 3px 0 black;
+    border-radius: 15px;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+    background-color: brown;
+}
+
+.s{
+    background-image: url("images/snare.jpg");
+
+}
+
+.k{
+    background-image: url("images/kick.jpg");
+
+}
+
+.h{
+    background-image: url("images/hihat.jpg");
+
+}
+
+.t{
+    background-image: url("images/tom.jpg");
+
+}
+
+.pressed{
+    box-shadow: 0 3px 4px #dbedf3;
+    opacity: 0.6;
+}
+
